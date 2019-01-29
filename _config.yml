@@ -1,0 +1,43 @@
+# Site settings
+title: My grimuar
+description: 'I have no idea for what, but this blog'
+url: 'http://sonulen.github.io/my_grimuar'
+baseurl: '/my_grimuar'
+google_analytics: 'UA-132818872-1'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Andrey Tolmachev'
+  email: sonulen@gmail.com
+  twitter_username: sonulen
+  facebook_username: sonulen
+  github_username:  sonulen
+  linkedin_username:  andrey-tolmachev-51174b179
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
