@@ -7,12 +7,12 @@ google_analytics: 'UA-132818872-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Andrey Tolmachev'
+  name: 'Tolmachev Andrey'
   email: sonulen@gmail.com
-  twitter_username: sonulen
-  facebook_username: sonulen
+  #twitter_username: sonulen
+  #facebook_username: sonulen
   github_username:  sonulen
-  linkedin_username:  andrey-tolmachev-51174b179
+  linkedin_username:  sonulen
 
 defaults:
   -
