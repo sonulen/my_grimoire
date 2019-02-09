@@ -1,4 +1,4 @@
-# jekyll-uno
+# My grimuar
 
 Based on Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
@@ -18,7 +18,22 @@ Access via: [http://127.0.0.1:4000/my_grimuar/](http://127.0.0.1:4000/my_grimuar
 
 ---
 
-### Demo and Download
+## The Posts Folder
+The _posts folder is where your blog posts live. You typically write posts in Markdown, HTML is also supported.
+
+### Creating Posts
+To create a post, add a file to your _posts directory with the following format: **YEAR-MONTH-DAY-title.MARKUP**  
+Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file.   
+For example, the following are examples of valid post filenames:
+
+```bash
+2011-12-31-new-years-eve-is-awesome.md
+2012-09-12-how-to-write-a-blog.md
+```
+
+All blog post files must begin with front matter which is typically used to set a layout or other meta data.
+
+### Demo
 
 [Demo](https://sonulen.github.io/my_grimuar/)
 
