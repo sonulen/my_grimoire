@@ -4,7 +4,7 @@ description: 'I have no idea for what, but this blog'
 url: 'http://sonulen.github.io/my_grimuar'
 baseurl: '/my_grimuar'
 google_analytics: 'UA-132818872-1'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'osu-0449ba3781b0c6710b0dd0362e860e9c'
 
 author:
   name: 'Tolmachev Andrey'
