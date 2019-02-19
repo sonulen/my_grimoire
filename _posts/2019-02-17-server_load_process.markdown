@@ -19,7 +19,7 @@ tags: [Linux]
 
 Например для **Centos 7** этапы загрузки представлены на рисунке.
 
-<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/boot_load/RHEL-CentOS-7-Boot-process-systemd.png" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/boot_load/RHEL-CentOS-7-Boot-process-systemd.png" width="70%" height="70%" /></div>
 
 Рассмотрим каждый из этапов подробно.
 
@@ -46,7 +46,7 @@ tags: [Linux]
 * Таблица разделов диска (16 байт на раздел × 4 раздела) — MBR поддерживает только четыре раздела, подробнее об этом ниже.
 * Подпись (2 байта).
 
-<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/boot_load/MBR.png" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/boot_load/MBR.png" width="90%" height="90%"/></div>
 
 На этом этапе MBR сканирует таблицу разделов и загружает в оперативную память загрузчик ОС — GRand Unified Bootloader (GRUB2).
 И передаёт управление загрузчику.
@@ -113,7 +113,7 @@ Target’ы и сервисы являются юнитами systemd.
 Рисунок представленный ниже, напрямую скопирован с [главной страницы bootup](http://man7.org/linux/man-pages/man7/bootup.7.html). На нем показана общая последовательность событий во время запуска **systemd** и базовые требования для обеспечения его успешности. 
 
 <div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/boot_load/map.png" />
-Карта запуска **systemd**.</div>
+Карта запуска systemd.</div>
 
 
 Таргеты *sysinit.target and basic.target* можно считать чекпоинтами в процессе запуска системы. Хоть одна из целей **systemd** — параллельно запускать системная сервисы, есть некоторые сервисы и функциональные таргеты, которые должны быть запущены раньше других. Эти контрольные точки не могут быть пройдены до тех пор, пока все сервисы и таргеты, необходимые для них, не будут выполнены. 
