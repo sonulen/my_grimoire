@@ -1,6 +1,6 @@
 ---
 title:  "От ввода URL до прогрузки web-страницы"
-date:   2019-02-24 17:51:33
+date:   2019-02-24 16:51:33
 categories: [network]
 tags: [dns] [http] [web browser]
 ---
