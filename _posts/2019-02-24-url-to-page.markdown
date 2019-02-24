@@ -1,11 +1,9 @@
 ---
-title:  "От ввода URL до прогрузки web-страницы"
-date:   2019-02-24 16:51:33
+title: "От ввода URL до прогрузки web страницы"
+date: 2019-02-24 16:51:33
 categories: [network]
-tags: [dns] [http] [web browser]
+tags: [dns, http, tls, web browser]
 ---
-[en.cppreference.com]: https://en.cppreference.com/w/
-
 Что происходит когда вы печатаете в адресной строке url сайта и нажимаете Enter?
 Попытаемся разобраться в этом, на примере загрузки сайта [en.cppreference.com][].
 
@@ -208,7 +206,7 @@ Target IP: interface.ip.goes.here
 * Устанавливает SYN-бит, чтобы сообщить о выборе начальной последовательности;
 * Копирует ISN клиента +1 в поле ACK и добавляет ACK-флаг для обозначения подтверждения получения первого пакета.
 
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/syn.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/syn.png" width="100%" height="100%" /></div>
 
 **c**. Клиент подтверждает соединение путём отправки пакета:
 
@@ -216,7 +214,7 @@ Target IP: interface.ip.goes.here
 * Увеличивает номер подтверждения получения;
 * Устанавливает поле ACK.
 
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/syn_ack.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/syn_ack.png" width="100%" height="100%" /></div>
 
 **d**. Данные передаются следующим образом:
 
@@ -229,7 +227,7 @@ Target IP: interface.ip.goes.here
 * Другая сторона подтверждает FIN (с помощью ACK) и отправляет собственный FIN-пакет;
 * Инициатор прекращения соединения подтверждает получение FIN отправкой собственного ACK и RST для прекращения попыток переподключения.
 
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/fin_ack.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/fin_ack.png" width="100%" height="100%" /></div>
 
 ## 6. TLS handshake
 
@@ -249,7 +247,7 @@ Target IP: interface.ip.goes.here
 
 Пример TLS соединения при загрузке страницы [en.cppreference.com][]:
 
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/tls.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/tls.png" width="100%" height="100%" /></div>
 
 ## 7. Протокол HTTP
 
@@ -346,7 +344,7 @@ HTTPD (HTTP Daemon) является одним из инструментов о
 Получающееся на выходе дерево («parse tree») — это дерево DOM-элементов и узлов атрибутов. DOM — сокращение от Document Object Model. Это модель объектного представления HTML-документа и интерфейс для взаимодействия HTML-элементов с «внешним миром» (например, JavaScript-кодом). Корнем дерева является объект «Документ».
 
 На рисунке показано взаимодействие HTML + JS + CSS при парсинге страницы:
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/htmlcssjs.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/htmlcssjs.png" width="100%" height="100%" /></div>
 
 ### Алгоритм разбора
 
@@ -366,7 +364,7 @@ HTML-нельзя «распарсить» с помощью обычных ан
 
 Для примеров изменения страницы на данном этапе рассмотрим url (GET-запрос) вида:
 `http://site.com/page.html?p1=44&p2=s`.
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/query-string.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/query-string.png" width="100%" height="100%" /></div>
 
 При получении такого запроса сервер может запустить JavaScript и получить из url - **query string**, распарсив которую извлечь передаваемые параметры **p1 = 44** и **p2 = s** и изменить запрашиваемую страницу.   
 Примером подобных запросов является использование архитектуры **REST API**.
@@ -383,7 +381,7 @@ HTML-нельзя «распарсить» с помощью обычных ан
 
 ## 11. Рендеринг страниц
 
-<div style="text-align:center"><img src ="../images/posts_includes/url_to_page/crp.png" width="100%" height="100%" /></div>
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/posts_includes/url_to_page/crp.png" width="100%" height="100%" /></div>
 
 * Путём перебора DOM-узлов и вычисления для каждого узла значений CSS-стилей создаётся «Дерево рендера» (Render Tree или Frame Tree).
 
@@ -422,3 +420,5 @@ HTML-нельзя «распарсить» с помощью обычных ан
 * в результате действий пользователя (ввод поискового запроса в строку и получение рекомендаций в ответ)
 
 Также могут срабатывать плагины вроде Flash или Java. Скрипты могут потребовать обработки дополнительных сетевых запросов, изменять страницу или её шаблон, что приведёт к следующему этапу рендеринга и отрисовки.
+
+[en.cppreference.com]: https://en.cppreference.com/w/
