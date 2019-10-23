@@ -1,7 +1,7 @@
 ---
 title:  "От включения питания до запуска сервисов"
 date:   2019-02-17 15:29:23
-categories: [system administration]
+categories: [devops]
 tags: [Linux]
 ---
 

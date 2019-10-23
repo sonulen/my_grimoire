@@ -1,7 +1,7 @@
 ---
 title: "От ввода URL до прогрузки web страницы"
 date: 2019-02-24 16:51:33
-categories: [network]
+categories: [devops]
 tags: [dns, http, tls, web browser]
 ---
 

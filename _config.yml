@@ -1,6 +1,6 @@
 # Site settings
 title: My grimuar
-description: "I have no idea why, but this is a blog"
+description: "I have no idea why, but this is my blog"
 url: "http://sonulen.github.io/my_grimuar"
 baseurl: "/my_grimuar"
 google_analytics: "UA-132818872-1"
