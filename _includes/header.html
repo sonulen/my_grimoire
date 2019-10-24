@@ -10,21 +10,21 @@
             <div class="panel-main__content">
                 <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
                     <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="My Profile Photo">
-                    <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
+                    <h1 class="panel-cover__title panel-title my-grim-title">{{ site.title }}</h1>
                 </a>
                 <hr class="panel-cover__divider">
-                <p class="panel-cover__description">{{ site.description }}</p>
+                <p class="panel-cover__description my-grim-title" style="font-size: 1.2em">{{ site.description }}</p>
                 <hr class="panel-cover__divider panel-cover__divider--secondary">
 
                 <div class="navigation-wrapper">
 
                     <nav class="cover-navigation cover-navigation--primary">
                         <ul class="navigation">
-                            <li class="navigation__item"><a href="{{ site.baseurl }}/#blog"
+                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/#blog"
                                     title="link to {{ site.title }} blog" class="blog-button">Blog</a></li>
-                            <li class="navigation__item"><a href="{{ site.baseurl }}/categories"
+                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/categories"
                                     title="link to {{ site.title }} categories" class="blog-button">Categories</a></li>
-                            <li class="navigation__item"><a href="{{ site.baseurl }}/tags"
+                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/tags"
                                     title="link to {{ site.title }} tags" class="blog-button">Tags</a></li>
                             
                         </ul>
@@ -33,7 +33,7 @@
 
                     <nav class="cover-navigation cover-navigation--primary">
                         <ul class="navigation">
-                            <li class="navigation__item"><a href="https://trello.com/b/jCi75UJL/book-list"
+                            <li class="navigation__item my-grim fire"><a href="https://trello.com/b/jCi75UJL/book-list"
                                     title="link to Book list on Trello" class="booklist-button" target="_blank">
                                     Trello: Book list</a></li>
                             
@@ -41,7 +41,7 @@
                     </nav>
                     <br/>
 
-                    <nav class="cover-navigation navigation--social">
+                    <nav class="cover-navigation navigation--social fire">
                         <ul class="navigation">
 
                             {% if site.author.github_username %}
