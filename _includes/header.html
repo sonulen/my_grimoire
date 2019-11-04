@@ -18,22 +18,22 @@
 
                 <div class="navigation-wrapper">
 
-                    <nav class="cover-navigation cover-navigation--primary">
+                    <nav class="cover-navigation cover-navigation--primary fire">
                         <ul class="navigation">
-                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/#blog"
+                            <li class="navigation__item my-grim"><a href="{{ site.baseurl }}/#blog"
                                     title="link to {{ site.title }} blog" class="blog-button">Blog</a></li>
-                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/categories"
+                            <li class="navigation__item my-grim"><a href="{{ site.baseurl }}/categories"
                                     title="link to {{ site.title }} categories" class="blog-button">Categories</a></li>
-                            <li class="navigation__item my-grim fire"><a href="{{ site.baseurl }}/tags"
+                            <li class="navigation__item my-grim"><a href="{{ site.baseurl }}/tags"
                                     title="link to {{ site.title }} tags" class="blog-button">Tags</a></li>
                             
                         </ul>
                     </nav>
                     <br/>
 
-                    <nav class="cover-navigation cover-navigation--primary">
+                    <nav class="cover-navigation cover-navigation--primary fire">
                         <ul class="navigation">
-                            <li class="navigation__item my-grim fire"><a href="https://trello.com/b/jCi75UJL/book-list"
+                            <li class="navigation__item my-grim"><a href="https://trello.com/b/jCi75UJL/book-list"
                                     title="link to Book list on Trello" class="booklist-button" target="_blank">
                                     Trello: Book list</a></li>
                             
@@ -106,6 +106,18 @@
                                     target="_blank">
                                     <i class="icon icon-mail"></i>
                                     <span class="label">Email</span>
+                                </a>
+                            </li>
+                            {% endif %}
+
+                            {% if site.author.instagram_username %}
+                            <!-- Instagram -->
+                            <li class="navigation__item">
+                                <a href="https://www.instagram.com/{{ site.author.instagram_username }}" 
+                                title="Instagram {{ site.author.instagram_username }}"
+                                    target="_blank">
+                                    <i class="icon icon-social-instagram"></i>
+                                    <span class="label">Instagram</span>
                                 </a>
                             </li>
                             {% endif %}
