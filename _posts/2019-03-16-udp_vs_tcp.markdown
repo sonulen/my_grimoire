@@ -9,8 +9,9 @@ tags: [theses, tcp, udp, network]
 
 Докладчик: Александр Тоболь (Одноклассники).
 ## Источник
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aXYJlizk3CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videoWrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aXYJlizk3CQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## В двух словах
 
