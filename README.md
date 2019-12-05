@@ -1,4 +1,4 @@
-# My grimuar
+# My grimoire
 
 Based on Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
@@ -8,13 +8,13 @@ Based on Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](
 
 ### Install and Test
 
-1. Download or clone repo `git clone git@github.com:sonulen/my_grimuar.git`
-2. Enter the folder: `cd my_grimuar/`
+1. Download or clone repo `git clone git@github.com:sonulen/my_grimoire.git`
+2. Enter the folder: `cd my_grimoire/`
 3. If you don't have bundler installed: `gem install bundler`
 3. Install Ruby gems: `bundle install`
 4. Start Jekyll server: `bundle exec jekyll serve --watch`
 
-Access via: [http://127.0.0.1:4000/my_grimuar/](http://127.0.0.1:4000/my_grimuar/)
+Access via: [http://127.0.0.1:4000/my_grimoire/](http://127.0.0.1:4000/my_grimoire/)
 
 ---
 
@@ -35,7 +35,7 @@ All blog post files must begin with front matter which is typically used to set 
 
 ### Demo
 
-[Demo](https://sonulen.github.io/my_grimuar/)
+[Demo](https://sonulen.github.io/my_grimoire/)
 
 ---
 

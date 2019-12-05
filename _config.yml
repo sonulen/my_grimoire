@@ -1,10 +1,10 @@
 # Site settings
-title: My grimuar
+title: My grimoire
 description: "I have no idea why, but this is my blog"
-url: "http://sonulen.github.io/my_grimuar"
-baseurl: "/my_grimuar"
+url: "http://sonulen.github.io/my_grimoire"
+baseurl: "/my_grimoire"
 google_analytics: "UA-132818872-1"
-disqus_shortname: "my-grimuar"
+disqus_shortname: "my-grimoire"
 
 author:
   name: "Tolmachev Andrey"
