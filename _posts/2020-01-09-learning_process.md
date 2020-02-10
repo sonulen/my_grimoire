@@ -54,7 +54,7 @@ tags: [theses]
 
 - Учится по утрам
 
-![{{ site.baseurl }}/images/posts_includes/learning_process/5.png]({{ site.baseurl }}/images/posts_includes/learning_process/5.png)
+![{{ site.baseurl }}/images/posts_includes/learning_process/5.png]({{ site.baseurl }}/images/posts_includes/learning_process/6.png)
 
 > И под "учится по утрам" докладчик имеет ввиду не только вставать до работы. А и договориться с начальством, что первый час/два ты будешь посвещать обучению. Чудеса. Интересно как заинтересовать в этом начальство.
 
@@ -62,11 +62,12 @@ tags: [theses]
 
 Всякие мысли "что мне делать?" "Зачем это все" и подобные тратят безумное количество энергии и мотивации. Задаваться такими вопросами конечно надо, но **не мучать себя** ими ежедневно.
 
-![Untitled/Screenshot_2019-11-24-00-16-22-974_com.google.android.youtube.png](Untitled/Screenshot_2019-11-24-00-16-22-974_com.google.android.youtube.png)
+![{{ site.baseurl }}/images/posts_includes/learning_process/7.png]({{ site.baseurl }}/images/posts_includes/learning_process/7.png)
+
 
 - Получать удовольствие
 
-![{{ site.baseurl }}/images/posts_includes/learning_process/7.png]({{ site.baseurl }}/images/posts_includes/learning_process/7.png)
+![{{ site.baseurl }}/images/posts_includes/learning_process/8.png]({{ site.baseurl }}/images/posts_includes/learning_process/8.png)
 
 - Любить себя
 
