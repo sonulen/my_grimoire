@@ -20,7 +20,7 @@ tags: [theses]
 Докладчик: Михаил Горюнов
 
 <div class="videoWrapper">
-    <iframe width="560" height="315" src="https://youtu.be/7be-l64jgTc?t=6863" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7be-l64jgTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Михаил Горюнов - Эволюция антипаттернов Java/Kotlin
