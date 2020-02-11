@@ -1,6 +1,6 @@
 ---
 title: "Эволюция антипаттернов Java/Kotlin"
-date: 2019-17-12 18:21:33
+date: 2019-12-17 18:21:33
 categories: [java, kotlin, patterns]
 tags: [theses]
 ---
