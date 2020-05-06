@@ -4,7 +4,7 @@ description: "I have no idea why, but this is my blog"
 url: "http://sonulen.github.io/my_grimoire"
 baseurl: "/my_grimoire"
 google_analytics: "UA-132818872-1"
-disqus_shortname: "my-grimoire"
+disqus_shortname: "my-grimuar"
 
 author:
   name: "Tolmachev Andrey"
