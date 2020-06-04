@@ -5,6 +5,19 @@ categories: [devops]
 tags: [Linux]
 ---
 
+Как загружается ОС?
+
+Table of Contents:
+- [POST (Power on Self Test)](#post-power-on-self-test)
+- [MBR](#mbr)
+- [GRUB2](#grub2)
+  - [GRUB Stage 1](#grub-stage-1)
+  - [GRUB Stage 1.5](#grub-stage-15)
+  - [GRUB Stage 2](#grub-stage-2)
+- [Kernel](#kernel)
+- [systemd](#systemd)
+  - [Управление systemd](#управление-systemd)
+  
 Есть два ряда событий, необходимых для приведения компьютера с Linux в рабочее состояние: загрузка ядра (boot) и запуск системы (startup).  
 Процесс загрузки ядра начинается при включении компьютера и заканчивается с инициализацией ядра и запуском подсистемы инициализации демонов. После этого начинается процесс запуска системы, и именно он доводит компьютер Linux до рабочего состояния.
 
