@@ -17,7 +17,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block; }
 
 body {
-	line-height: 1; }
+    line-height: 1; 
+    background-color: #222;
+}
 
 ol, ul {
 	list-style: none; }
@@ -927,7 +929,7 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	color: #696969; }
+	color: #aaa; }
 
 ::selection {
 	background: #fae3df; }
@@ -955,7 +957,7 @@ h5 {
 	margin-bottom: .4em;
 	font-family: 'Roboto', regular;
 	font-weight: lighter;
-	color: #333333;
+	color: rgb(187, 185, 185);
 	-webkit-font-smoothing: antialiased; }
 
 h1 {
@@ -1022,10 +1024,10 @@ ul {
 
 code {
 	padding: .1em .4em;
-	background: #e8f2fb;
-	border: 1px solid #c9e1f6;
+	background: #272822;
+	border: 1px solid #21221d;
 	border-radius: 3px;
-	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-family: Fira Code, DejaVu Sans Mono, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 	font-size: .85em; }
 
 pre {
@@ -1034,7 +1036,7 @@ pre {
 	background: #e8f2fb;
 	border: 1px solid #c9e1f6; */
 	border-radius: 3px;
-	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-family: Fira Code, DejaVu Sans Mono, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 	font-size: .9em;
 	font-weight: normal;
 	line-height: 1.3em; }
@@ -1064,7 +1066,7 @@ pre {
 .excerpt {
 	margin: 0;
 	font-size: .9em;
-	color: #696969; }
+	color: #aaa; }
 
 .intro {
 	font-family: "Roboto Slab", serif;
@@ -1451,7 +1453,7 @@ i {
 	font-size: 1.5em;
 	line-height: 1.3em; }
 	.post-list__post-title a {
-		color: #333333; }
+		color: #aaa; }
 		.post-list__post-title a:hover {
 			color: #b9301c; }
 
